@@ -282,8 +282,8 @@ export default function Portfolio() {
             </p>
           </div>
 
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
+          <div className="grid md:grid-cols-2 gap-12 items-start">
+            <div className="mt-2">
               <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
               <p className="text-gray-300 mb-6">
                 With over 5 years of experience in software development, I've worked on diverse projects using modern
