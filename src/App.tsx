@@ -56,65 +56,83 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Student Management System",
       description:
-        "Full-stack e-commerce solution with React 19, Vite, and Node.js 22. Features include user authentication, payment integration, and admin dashboard.",
-      image: "/placeholder.svg?height=200&width=400&text=E-Commerce Platform",
-      technologies: ["React 19", "Vite", "Node.js 22", "MongoDB", "Stripe"],
-      github: "https://github.com/username/ecommerce-platform",
-      live: "https://ecommerce-demo.vercel.app",
-      category: "Full Stack",
+          "Designed and enhanced a comprehensive academic MIS as a System Analyst. Developed modules for student enrollment, attendance tracking, and grading with secure JWT-based authentication and role-based access. Implemented microservices architecture design for scalability and maintainability, optimized database performance, and managed CI/CD pipelines.",
+      image: "./assets/ss3.png",
+      technologies: ["Laravel", "Angular", "MySQL", "JWT", "Docker", "Jenkins", "Microservices Architecture","REST APIs"],
+      // github: "https://github.com/username/student-management-system",
+      live: "https://fogsadmin.fohss.lk/",
+      category: "Enterprise System",
     },
     {
-      title: "Task Management App",
-      description:
-        "Collaborative task management application built with React 19 and Vite. Features real-time updates, drag-and-drop functionality, and team collaboration.",
-      image: "/placeholder.svg?height=200&width=400&text=Task Management App",
-      technologies: ["React 19", "Vite", "TypeScript", "Socket.io"],
-      github: "https://github.com/username/task-manager",
-      live: "https://taskmanager-demo.vercel.app",
-      category: "Web App",
+      title: "AI-Driven Full-Stack Hotel Management System",
+      description: "Developed a cloud-based hotel management platform integrating AI-powered search using RAG (Retrieval-Augmented Generation) and vector databases for personalized recommendations. Designed  user authentication secure using clerk, secure payment processing via Stripe. Deployed using CI/CD pipelines for continuous integration using Render and Netlify tools",
+      image: "/assets/ss4.png",
+      technologies: ["MERN Stack", "TailwindCSS", "Clerk", "Stripe", "RAG", "Vector Databases", "OpenAI", "ShadCN", "Netlify", "Netlify", "Render","REST APIs"],
+      github: "https://github.com/isurugayashan/AIDF-Front",
+      live: "https://aidf-horizone-frontend-isuru.netlify.app/",
+      category: "AI",
     },
     {
-      title: "Weather Analytics Dashboard",
-      description:
-        "Real-time weather data visualization dashboard with interactive charts, forecasting, and location-based weather tracking using modern React.",
-      image: "/placeholder.svg?height=200&width=400&text=Weather Dashboard",
-      technologies: ["React 19", "Vite", "D3.js", "Node.js 22"],
-      github: "https://github.com/username/weather-dashboard",
-      live: "https://weather-analytics.vercel.app",
-      category: "Data Visualization",
+      title: "Student Chat Application Module",
+      description: "Developed front-end and back-end APIs for a real-time student chat feature within an enterprise-level Management Information System. Built using Angular, Laravel, and MySQL, ensuring secure data handling and seamless integration with existing academic workflows.",
+      image: "/assets/ss5.png",
+      technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker", "REST APIs"],
+      //github: "https://github.com/username/student-chat-module",
+      live: "https://admin.fohss.lk/",
+      category: "Enterprise Module",
     },
     {
-      title: "Social Media API",
+      title: "Ravanas Web Page",
       description:
-        "RESTful API built with Node.js 22 for social media platform with user management, post creation, real-time messaging, and content moderation.",
-      image: "/placeholder.svg?height=200&width=400&text=Social Media API",
-      technologies: ["Node.js 22", "Express", "PostgreSQL", "Redis"],
-      github: "https://github.com/username/social-api",
-      live: "https://api-docs.vercel.app",
-      category: "Backend",
+          "Built and hosted Ravans Group a custom WordPress site with Elementor—leveraging AWS for scalable, cloud-based deployment.",
+      image: "/assets/ss1.png",
+      technologies: ["WordPress", "Elementor", "PHP", "MySQL (RDS)", "Apache", "AWS EC2", "AWS Route 53", "AWS Certificate Manager (SSL)"],
+      // github: "https://github.com/username/ecommerce-platform",
+      live: "https://ravana.com.au/",
+      category: "E-Commerce Platform",
+    },
+
+    {
+      title: "E-Certificate Management Service",
+      description:
+          "Developed a dedicated service for managing digital certificates at the Faculty of Humanities and Social Sciences, University of Ruhuna. Implemented secure APIs using Angular, Laravel, and MySQL to generate, validate, and store certificates. Integrated QR-based certificate download for quick access and verification, ensuring seamless integration with existing academic platforms.",
+      image: "/assets/ss6.png",
+      technologies: ["Angular", "Laravel", "MySQL", "REST APIs", "QR Code"],
+     // github: "https://github.com/username/e-certificate-management-service",
+      live: "https://ruichss.fohss.lk/user",
+      category: "Frontend + Backend",
     },
     {
-      title: "React 19 Component Library",
+      title: "Daham Pasal Exam Management System",
       description:
-        "Modern component library built with React 19, Vite, and shadcn/ui. Features TypeScript support, Storybook documentation, and npm publishing.",
-      image: "/placeholder.svg?height=200&width=400&text=Component Library",
-      technologies: ["React 19", "Vite", "shadcn/ui", "Storybook"],
-      github: "https://github.com/username/component-library",
-      live: "https://component-library.vercel.app",
-      category: "Library",
+          "Designed and developed a full-stack exam management platform for the Buddhist Ministry of Sri Lanka. Built using Angular and Laravel with JWT-based authentication and authorization. Deployed with Docker to ensure portability and scalability, supporting secure exam creation, student management, and result processing.",
+      image: "/assets/ss2.png",
+      technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker","REST APIs", "MVC Architecture"],
+      github: "https://github.com/isurugayashan/dept-bud-aff-front",
+      //live: "https://daham-pasal-demo.example.com",
+      category: "Enterprise System",
     },
     {
-      title: "AI Content Generator",
+      title: "Academic Administrative Processes Management System",
       description:
-        "AI-powered content generation tool using React 19 and Vite with OpenAI API integration, custom prompts, and export functionality.",
-      image: "/placeholder.svg?height=200&width=400&text=AI Content Generator",
-      technologies: ["React 19", "Vite", "OpenAI API", "Tailwind"],
-      github: "https://github.com/username/ai-content-generator",
-      live: "https://ai-content.vercel.app",
-      category: "AI/ML",
-    },
+          "Developed a full-stack academic administrative management platform for the Zonal Education Office in Akuressa. Focused on Customer Relationship Management (CRM) features for higher education centers. Implemented an MVC architecture using Angular (with Angular Material) for the front-end, Spring Boot for the back-end, and MySQL as the database. Integrated JWT-based authentication, tested APIs with Postman, and used Gradle for build automation. Designed using MySQL Workbench for efficient database modeling.",
+      image: "/assets/ss7.png",
+      technologies: [
+        "Angular",
+        "Spring Boot",
+        "MySQL Workbench",
+        "Gradle",
+        "JWT",
+        "Postman",
+        "REST APIs",
+        "MVC Architecture"
+      ],
+      github: "https://github.com/isurugayashan/Academic-Administrative-System-Client-App",
+      //live: "https://academic-admin-demo.example.com",
+      category: "Enterprise System",
+    }
   ]
 
   const experience = [
@@ -234,11 +252,11 @@ export default function Portfolio() {
           <div className="text-center">
             <div className="mb-8">
               <img
-                src="/assets/placeholder.svg?height=150&width=150&text=Profile"
-                alt="Profile"
-                width={150}
-                height={150}
-                className="rounded-full mx-auto border-4 border-blue-500/20"
+                  src="/assets/profile2.jpg"
+                  alt="Profile"
+                  width={200}
+                  height={150}
+                  className="w-40 h-40 mx-auto rounded-full border-4 border-blue-500/30 shadow-lg object-cover"
               />
             </div>
             <h1 className="text-5xl md:text-5xl font-bold mb-6">
@@ -247,22 +265,32 @@ export default function Portfolio() {
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Passionate about creating innovative web solutions with React 19, Vite, and Node.js 22. Specialized in
-              modern full-stack development with cutting-edge technologies.
+              Experienced Full Stack Developer, System Analyst, and SEO Specialist with a proven track record in building
+              web-based academic and business systems.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
-              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-                <Mail className="mr-2 h-5 w-5" />
-                Get In Touch
-              </Button>
-              <Button
-                variant="outline"
-                size="lg"
-                className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
+              <a href="mailto:isurugayashan178@gmail.com">
+                <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                  <Mail className="mr-2 h-5 w-5" />
+                  Get In Touch
+                </Button>
+              </a>
+
+              <a
+                  href="https://github.com/your-username"
+                  target="_blank"
+                  rel="noopener noreferrer"
               >
-                <Github className="mr-2 h-5 w-5" />
-                View GitHub
-              </Button>
+                <Button
+                    variant="outline"
+                    size="lg"
+                    className="border-gray-600 text-white hover:bg-gray-800 bg-transparent"
+                >
+                  <Github className="mr-2 h-5 w-5" />
+                  View GitHub
+                </Button>
+              </a>
+
             </div>
             <div className="animate-bounce">
               <ArrowDown className="h-6 w-6 mx-auto text-gray-400" />
@@ -277,8 +305,7 @@ export default function Portfolio() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              I'm a passionate software engineer with expertise in building modern web applications using React 19,
-              Vite, and Node.js 22, solving complex technical challenges with cutting-edge technologies.
+              I am a software developer passionate about creating modern, efficient solutions using a wide range of frameworks and up‑to‑date technologies.
             </p>
           </div>
 
@@ -286,32 +313,47 @@ export default function Portfolio() {
             <div className="mt-2">
               <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
               <p className="text-gray-300 mb-6">
-                With over 5 years of experience in software development, I've worked on diverse projects using modern
-                technologies like React 19, Vite, and Node.js 22. I'm passionate about writing clean, efficient code and
-                staying up-to-date with the latest technologies.
+                With experience as a Full-Stack Developer, System Analyst, and SEO Specialist, I’ve delivered academic and business
+                systems using Laravel, Angular, React, Node.js. My expertise includes designing scalable cloud architectures,
+                optimizing application performance, and implementing modern UI frameworks like Tailwind CSS and shadcn/ui.
               </p>
               <p className="text-gray-300 mb-6">
-                I enjoy collaborating with cross-functional teams and have experience leading development projects from
-                conception to deployment. My goal is to create solutions that not only meet technical requirements but
-                also provide exceptional user experiences using modern tools like shadcn/ui and Tailwind CSS.
+                I have led end-to-end projects involving CI/CD pipelines, Dockerized deployments, and technical SEO enhancements.
+                Skilled in improving Core Web Vitals, search visibility, and secure cloud-based solutions, I stay current with evolving
+                technologies to deliver efficient, user-focused applications.
               </p>
+
               <div className="flex space-x-4">
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-gray-600 text-white hover:bg-gray-700 bg-transparent"
+                <a
+                    href="https://github.com/your-username"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
-                  <Github className="mr-2 h-4 w-4" />
-                  GitHub
-                </Button>
-                <Button
-                  variant="outline"
-                  size="sm"
-                  className="border-gray-600 text-white hover:bg-gray-700 bg-transparent"
+                  <Button
+                      variant="outline"
+                      size="sm"
+                      className="border-gray-600 text-white hover:bg-gray-700 bg-transparent"
+                  >
+                    <Github className="mr-2 h-4 w-4" />
+                    GitHub
+                  </Button>
+                </a>
+
+                <a
+                    href="https://www.linkedin.com/in/isuru-gayashan/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
-                  <Linkedin className="mr-2 h-4 w-4" />
-                  LinkedIn
-                </Button>
+                  <Button
+                      variant="outline"
+                      size="sm"
+                      className="border-gray-600 text-white hover:bg-gray-700 bg-transparent"
+                  >
+                    <Linkedin className="mr-2 h-4 w-4" />
+                    LinkedIn
+                  </Button>
+                </a>
+
                 <Button
                   variant="outline"
                   size="sm"
@@ -341,12 +383,12 @@ export default function Portfolio() {
                 <div className="text-center">
                   <Code className="h-8 w-8 mx-auto mb-2 text-blue-400" />
                   <h4 className="font-semibold">Frontend</h4>
-                  <p className="text-sm text-gray-400">React 19, Vite, TypeScript</p>
+                  <p className="text-sm text-gray-400">React, Angular, Laravel</p>
                 </div>
                 <div className="text-center">
                   <Database className="h-8 w-8 mx-auto mb-2 text-green-400" />
                   <h4 className="font-semibold">Backend</h4>
-                  <p className="text-sm text-gray-400">Node.js 22, Python, PostgreSQL</p>
+                  <p className="text-sm text-gray-400">Node.js, Laravel, Spring Boot</p>
                 </div>
                 <div className="text-center">
                   <Globe className="h-8 w-8 mx-auto mb-2 text-purple-400" />
@@ -370,8 +412,7 @@ export default function Portfolio() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Featured Projects</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              Here are some of my recent projects built with React 19, Vite, Node.js 22, and modern web technologies
-              that showcase my skills in full-stack development and problem-solving.
+              Here are some of my recent projects developed using various frameworks and technologies, including React, Node.js, Laravel, Angular, highlighting my full-stack development expertise and problem-solving skills.
             </p>
           </div>
 
@@ -406,24 +447,30 @@ export default function Portfolio() {
                     ))}
                   </div>
                   <div className="flex space-x-2">
-                    <Button
-                      size="sm"
-                      variant="outline"
-                      className="flex-1 border-gray-600 text-white hover:bg-gray-700 bg-transparent"
-                      onClick={() => window.open(project.github, "_blank")}
-                    >
-                      <Github className="mr-2 h-4 w-4" />
-                      Code
-                    </Button>
-                    <Button
-                      size="sm"
-                      className="flex-1 bg-blue-600 hover:bg-blue-700"
-                      onClick={() => window.open(project.live, "_blank")}
-                    >
-                      <ExternalLink className="mr-2 h-4 w-4" />
-                      Live Demo
-                    </Button>
+                    { project.github && project.github.trim() !== "" && (
+                        <Button
+                            size="sm"
+                            variant="outline"
+                            className="flex-1 border-gray-600 text-white hover:bg-gray-700 bg-transparent"
+                            onClick={() => window.open(project.github, "_blank")}
+                        >
+                          <Github className="mr-2 h-4 w-4" />
+                          Code
+                        </Button>
+                    )}
+
+                    {project.live && project.live.trim() !== "" && (
+                        <Button
+                            size="sm"
+                            className="flex-1 bg-blue-600 hover:bg-blue-700"
+                            onClick={() => window.open(project.live, "_blank")}
+                        >
+                          <ExternalLink className="mr-2 h-4 w-4" />
+                          Live Demo
+                        </Button>
+                    )}
                   </div>
+
                 </CardContent>
               </Card>
             ))}
@@ -486,10 +533,16 @@ export default function Portfolio() {
               <Mail className="mr-2 h-5 w-5" />
               Send Email
             </Button>
-            <Button variant="outline" size="lg" className="border-gray-600 text-white hover:bg-gray-800 bg-transparent">
-              <Linkedin className="mr-2 h-5 w-5" />
-              Connect on LinkedIn
-            </Button>
+            <a
+                href="https://www.linkedin.com/in/isuru-gayashan/"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+              <Button variant="outline" size="lg" className="border-gray-600 text-white hover:bg-gray-800 bg-transparent">
+                <Linkedin className="mr-2 h-5 w-5" />
+                Connect on LinkedIn
+              </Button>
+            </a>
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-800">
