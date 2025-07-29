@@ -277,7 +277,7 @@ export default function Portfolio() {
               </a>
 
               <a
-                  href="https://github.com/your-username"
+                  href="https://github.com/isurugayashan"
                   target="_blank"
                   rel="noopener noreferrer"
               >
