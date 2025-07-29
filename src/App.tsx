@@ -56,11 +56,11 @@ export default function Portfolio() {
 
   const projects = [
     {
-      title: "Student Management System",
+      title: "Management Information System",
       description:
           "Designed and enhanced a comprehensive academic MIS as a System Analyst. Developed modules for student enrollment, attendance tracking, and grading with secure JWT-based authentication and role-based access. Implemented microservices architecture design for scalability and maintainability, optimized database performance, and managed CI/CD pipelines.",
       image: "./assets/ss3.png",
-      technologies: ["Laravel", "Angular", "MySQL", "JWT", "Docker", "Jenkins", "Microservices Architecture","REST APIs"],
+      technologies: ["Laravel", "Angular", "MySQL", "JWT", "Docker", "Jenkins", "Microservices Architecture","REST APIs","Git","Sourcetree"],
       // github: "https://github.com/username/student-management-system",
       // live: "https://fogsadmin.fohss.lk/",
       category: "Enterprise System",
@@ -69,7 +69,7 @@ export default function Portfolio() {
       title: "AI-Driven Full-Stack Hotel Management System",
       description: "Developed a cloud-based hotel management platform integrating AI-powered search using RAG (Retrieval-Augmented Generation) and vector databases for personalized recommendations. Designed  user authentication secure using clerk, secure payment processing via Stripe. Deployed using CI/CD pipelines for continuous integration using Render and Netlify tools",
       image: "/assets/ss4.png",
-      technologies: ["MERN Stack", "TailwindCSS", "Clerk", "Stripe", "RAG", "Vector Databases", "OpenAI", "ShadCN", "Netlify", "Netlify", "Render","REST APIs"],
+      technologies: ["MERN Stack", "TailwindCSS", "Clerk", "Stripe", "RAG", "Vector Databases", "OpenAI", "ShadCN", "Netlify", "Netlify", "Render","REST APIs","Git","Sourcetree"],
       github: "https://github.com/isurugayashan/AIDF-Front",
       live: "https://aidf-horizone-frontend-isuru.netlify.app/",
       category: "AI - Web Application",
@@ -78,7 +78,7 @@ export default function Portfolio() {
       title: "Student Chat Application Module",
       description: "Developed front-end and back-end APIs for a real-time student chat feature within an enterprise-level Management Information System. Built using Angular, Laravel, and MySQL, ensuring secure data handling and seamless integration with existing academic workflows.",
       image: "/assets/ss5.png",
-      technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker", "REST APIs"],
+      technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker", "REST APIs","Git","Sourcetree"],
       //github: "https://github.com/username/student-chat-module",
       // live: "https://admin.fohss.lk/",
       category: "Enterprise Module",
@@ -99,7 +99,7 @@ export default function Portfolio() {
       description:
           "Developed a dedicated service for managing digital certificates at the Faculty of Humanities and Social Sciences, University of Ruhuna. Implemented secure APIs using Angular, Laravel, and MySQL to generate, validate, and store certificates. Integrated QR-based certificate download for quick access and verification, ensuring seamless integration with existing academic platforms.",
       image: "/assets/ss6.png",
-      technologies: ["Angular", "Laravel", "MySQL", "REST APIs", "QR Code"],
+      technologies: ["Angular", "Laravel", "MySQL", "REST APIs", "QR Code","Git","Sourcetree"],
      // github: "https://github.com/username/e-certificate-management-service",
       live: "https://ruichss.fohss.lk/user",
       category: "Frontend + Backend",
@@ -109,7 +109,7 @@ export default function Portfolio() {
       description:
           "Designed and developed a full-stack exam management platform for the Buddhist Ministry of Sri Lanka. Built using Angular and Laravel with JWT-based authentication and authorization. Deployed with Docker to ensure portability and scalability, supporting secure exam creation, student management, and result processing.",
       image: "/assets/ss2.png",
-      technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker","REST APIs", "MVC Architecture"],
+      technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker","REST APIs", "Git","Sourcetree","MVC Architecture"],
       github: "https://github.com/isurugayashan/dept-bud-aff-front",
       //live: "https://daham-pasal-demo.example.com",
       category: "Web Application",
@@ -127,6 +127,7 @@ export default function Portfolio() {
         "JWT",
         "Postman",
         "REST APIs",
+        "Git",
         "MVC Architecture"
       ],
       github: "https://github.com/isurugayashan/Academic-Administrative-System-Client-App",
