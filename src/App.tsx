@@ -150,15 +150,15 @@ export default function Portfolio() {
       period: "2024 - Present",
       location: "Remote",
       description:
-          "Built responsive web applications with React and modern build tools. Worked closely with UX designers to implement pixel-perfect designs using Tailwind CSS.",
+          "Improved website visibility and user engagement through strategic SEO audits, performance optimization, and data-driven content enhancements.",
     },
     {
-      title: "Temporary IT Demonstator",
+      title: "Temporary IT Demonstrator",
       company: "Faculty of Humanities and Social Science, University of Ruhuna.",
       period: "2022 - 2024",
       location: "Matara",
       description:
-        "Developed and maintained multiple client projects using modern web technologies including React, Vite, and Node.js. Collaborated with design teams to implement responsive user interfaces.",
+        "Assisted in academic IT instruction and supported system development tasks, contributing to digital projects and student learning activities.",
     },
   ]
 
