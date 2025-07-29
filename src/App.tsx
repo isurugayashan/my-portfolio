@@ -72,7 +72,7 @@ export default function Portfolio() {
       technologies: ["MERN Stack", "TailwindCSS", "Clerk", "Stripe", "RAG", "Vector Databases", "OpenAI", "ShadCN", "Netlify", "Netlify", "Render","REST APIs"],
       github: "https://github.com/isurugayashan/AIDF-Front",
       live: "https://aidf-horizone-frontend-isuru.netlify.app/",
-      category: "AI",
+      category: "AI - Web Application",
     },
     {
       title: "Student Chat Application Module",
@@ -112,7 +112,7 @@ export default function Portfolio() {
       technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker","REST APIs", "MVC Architecture"],
       github: "https://github.com/isurugayashan/dept-bud-aff-front",
       //live: "https://daham-pasal-demo.example.com",
-      category: "Enterprise System",
+      category: "Web Application",
     },
     {
       title: "Academic Administrative Processes Management System",
@@ -131,34 +131,34 @@ export default function Portfolio() {
       ],
       github: "https://github.com/isurugayashan/Academic-Administrative-System-Client-App",
       //live: "https://academic-admin-demo.example.com",
-      category: "Enterprise System",
+      category: "Web Application",
     }
   ]
 
   const experience = [
     {
-      title: "Senior Software Engineer",
-      company: "Tech Solutions Inc.",
-      period: "2022 - Present",
-      location: "San Francisco, CA",
+      title: "System Analyst",
+      company: "Faculty of Graduate Studies, University of Ruhuna.",
+      period: "2025 - Present",
+      location: "Matara",
       description:
-        "Lead development of scalable web applications using React 19, Vite, Node.js 22, and cloud technologies. Mentor junior developers and architect system solutions.",
+        "Analyzed user requirements, designed system architecture, and led the implementation of academic management features to improve institutional workflows and decision-making.",
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Ltd.",
-      period: "2020 - 2022",
-      location: "New York, NY",
+      title: "Freelance Growth Hacker",
+      company: "ISHARASHEHAN CONSULTANCY (PVT) LTD",
+      period: "2024 - Present",
+      location: "Remote",
+      description:
+          "Built responsive web applications with React and modern build tools. Worked closely with UX designers to implement pixel-perfect designs using Tailwind CSS.",
+    },
+    {
+      title: "Temporary IT Demonstator",
+      company: "Faculty of Humanities and Social Science, University of Ruhuna.",
+      period: "2022 - 2024",
+      location: "Matara",
       description:
         "Developed and maintained multiple client projects using modern web technologies including React, Vite, and Node.js. Collaborated with design teams to implement responsive user interfaces.",
-    },
-    {
-      title: "Frontend Developer",
-      company: "StartupXYZ",
-      period: "2019 - 2020",
-      location: "Austin, TX",
-      description:
-        "Built responsive web applications with React and modern build tools. Worked closely with UX designers to implement pixel-perfect designs using Tailwind CSS.",
     },
   ]
 
@@ -484,8 +484,8 @@ export default function Portfolio() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">Work Experience</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              My professional journey in software development using modern technologies like React 19, Vite, and Node.js
-              22, and the companies I've contributed to.
+              Contributed to digital transformation in academic and administrative environments through impactful and result-driven projects.
+
             </p>
           </div>
 
@@ -529,10 +529,13 @@ export default function Portfolio() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-              <Mail className="mr-2 h-5 w-5" />
-              Send Email
-            </Button>
+
+            <a href="mailto:isurugayashan178@gmail.com">
+              <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
+                <Mail className="mr-2 h-5 w-5" />
+                Send Email
+              </Button>
+            </a>
             <a
                 href="https://www.linkedin.com/in/isuru-gayashan/"
                 target="_blank"
@@ -546,7 +549,7 @@ export default function Portfolio() {
           </div>
 
           <div className="mt-12 pt-8 border-t border-gray-800">
-            <p className="text-gray-400">© 2024 Your Name. Built with React 19, Vite, and Tailwind CSS.</p>
+            <p className="text-gray-400">© 2025 Isuru Gayashan. Built with React. All rights reserved.</p>
           </div>
         </div>
       </section>
