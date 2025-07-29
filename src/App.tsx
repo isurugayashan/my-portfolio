@@ -62,7 +62,7 @@ export default function Portfolio() {
       image: "./assets/ss3.png",
       technologies: ["Laravel", "Angular", "MySQL", "JWT", "Docker", "Jenkins", "Microservices Architecture","REST APIs"],
       // github: "https://github.com/username/student-management-system",
-      live: "https://fogsadmin.fohss.lk/",
+      // live: "https://fogsadmin.fohss.lk/",
       category: "Enterprise System",
     },
     {
@@ -80,7 +80,7 @@ export default function Portfolio() {
       image: "/assets/ss5.png",
       technologies: ["Angular", "Laravel", "MySQL", "JWT", "Docker", "REST APIs"],
       //github: "https://github.com/username/student-chat-module",
-      live: "https://admin.fohss.lk/",
+      // live: "https://admin.fohss.lk/",
       category: "Enterprise Module",
     },
     {
