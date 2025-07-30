@@ -253,7 +253,7 @@ export default function Portfolio() {
           <div className="text-center">
             <div className="mb-8">
               <img
-                  src="/assets/profile2.jpg"
+                  src="/assets/profile3.jpg"
                   alt="Profile"
                   width={200}
                   height={150}
