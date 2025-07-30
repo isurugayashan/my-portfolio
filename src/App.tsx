@@ -314,9 +314,8 @@ export default function Portfolio() {
             <div className="mt-2">
               <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
               <p className="text-gray-300 mb-6">
-                With experience as a Full-Stack Developer, System Analyst, and SEO Specialist, I’ve delivered academic and business
-                systems using Laravel, Angular, React, Node.js. My expertise includes designing scalable cloud architectures,
-                optimizing application performance, and implementing modern UI frameworks like Tailwind CSS and shadcn/ui.
+                With 3 years of experience as a Full-Stack Developer, System Analyst, and SEO Specialist, I’ve delivered academic and business systems using Laravel, Angular, React, and Node.js.
+                My expertise includes designing scalable cloud architectures, optimizing performance, and building modern user interfaces with Tailwind CSS and shadcn/ui.
               </p>
               <p className="text-gray-300 mb-6">
                 I have led end-to-end projects involving CI/CD pipelines, Dockerized deployments, and technical SEO enhancements.
