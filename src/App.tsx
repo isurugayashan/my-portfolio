@@ -147,7 +147,7 @@ export default function Portfolio() {
     },
     {
       title: "Freelance Growth Hacker",
-      company: "ISHARASHEHAN CONSULTANCY (PVT) LTD",
+      company: "ISHARASHEHAN CONSULTANCY (PVT) LTD.",
       period: "2024 - Present",
       location: "Remote",
       description:
