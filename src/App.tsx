@@ -69,7 +69,7 @@ export default function Portfolio() {
       title: "AI-Driven Full-Stack Hotel Management System",
       description: "Developed a cloud-based hotel management platform integrating AI-powered search using RAG (Retrieval-Augmented Generation) and vector databases for personalized recommendations. Designed  user authentication secure using clerk, secure payment processing via Stripe. Deployed using CI/CD pipelines for continuous integration using Render and Netlify tools",
       image: "/assets/ss4.png",
-      technologies: ["MERN Stack", "TailwindCSS", "Clerk", "Stripe", "RAG", "Vector Databases", "OpenAI", "ShadCN", "Netlify", "Render", "Render","REST APIs","Git","Sourcetree"],
+      technologies: ["MERN Stack", "TailwindCSS", "Clerk", "Stripe", "RAG", "Vector Databases", "OpenAI", "ShadCN", "Netlify", "Render","Redux", "RTK Quires", "REST APIs", "Git", "Sourcetree"],
       github: "https://github.com/isurugayashan/AIDF-Front",
       live: "https://aidf-horizone-frontend-isuru.netlify.app/",
       category: "AI - Web Application",
