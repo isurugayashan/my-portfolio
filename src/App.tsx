@@ -52,6 +52,9 @@ export default function Portfolio() {
     "Google Analytics",
     "Google Search Console",
     "SEMrush",
+    "Figma",
+    "LangChain",
+    "Redux",
   ]
 
   const projects = [
@@ -142,25 +145,21 @@ export default function Portfolio() {
       company: "Faculty of Graduate Studies, University of Ruhuna.",
       period: "2025 - Present",
       location: "Matara",
-      description:
-        "Analyzed user requirements, designed system architecture, and led the implementation of academic management features to improve institutional workflows and decision-making.",
+      description: "As a System Analyst at the University of Ruhuna, I led the enhancement of core academic modules—including student enrollment, attendance tracking, and grading—within the university's Management Information System (MIS). I gathered functional requirements from academic staff, designed scalable system architectures, and implemented secure JWT-based authentication with role-based access control.I also introduced a microservices architecture to improve system modularity and maintainability, while optimizing relational database schemas for performance and accuracy. Throughout the development cycle, I conducted rigorous testing, debugging, and performance tuning to ensure reliable and responsive user experiences.\n"
     },
     {
       title: "Freelance Growth Hacker",
       company: "ISHARASHEHAN CONSULTANCY (PVT) LTD.",
       period: "2024 - Present",
       location: "Remote",
-      description:
-          "Improved website visibility and user engagement through strategic SEO audits, performance optimization, and data-driven content enhancements.",
+      description:"As a Freelance Growth Hacker at Ishara Shehan Consultancy (Pvt) Ltd, I conducted in-depth SEO audits, implemented on-page and technical SEO strategies, and improved website structure and crawlability. I enhanced user experience and search visibility by optimizing loading speed, mobile usability, and Core Web Vitals. Using tools like Google Analytics, Search Console, and third-party SEO platforms, I tracked performance and refined strategies. I also conducted keyword research, competitor analysis, and built internal linking and targeted backlink campaigns to improve organic rankings and align content with industry trends"
     },
     {
       title: "Temporary IT Demonstrator",
       company: "Faculty of Humanities and Social Science, University of Ruhuna.",
       period: "2022 - 2024",
       location: "Matara",
-      description:
-        "Assisted in academic IT instruction and supported system development tasks, contributing to digital projects and student learning activities.",
-    },
+      description:"As a Temporary IT Demonstrator at the University of Ruhuna, I supported academic instruction and contributed to departmental IT projects. I assisted students with practical sessions and coursework while also participating in the design and development of an e-data collection system for the Department of Buddhist Affairs, using the Laravel framework. This role allowed me to bridge teaching and real-world system development, enhancing both learning outcomes and institutional digital solutions."},
   ]
 
   const scrollToSection = (sectionId: string) => {
