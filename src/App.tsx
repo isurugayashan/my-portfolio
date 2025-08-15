@@ -30,6 +30,7 @@ export default function Portfolio() {
     "C#.Net",
     "VB.Net",
     "React + Vite",
+    "Next.js (Beginner)",
     "AngularJs",
     "Laravel",
     "Spring Boot",
@@ -137,6 +138,25 @@ export default function Portfolio() {
       //live: "https://academic-admin-demo.example.com",
       category: "Web Application",
     }
+
+    ,
+    {
+      title: "Client Onboarding Form",
+      description: " small client onboarding form in Next.js using React Hook Form with Zod validation",
+      image: "/assets/ss8.png",
+      technologies: [
+        "Next.js",
+        "React Hook Form",
+        "Zod",
+        "Sonner",
+        "Postman",
+        "Git",
+        "Sourcetree",
+      ],
+      github: "https://github.com/isurugayashan/client-onboarding-form-simple.git",
+      //live: "https://academic-admin-demo.example.com",
+      category: "Web Form",
+    }
   ]
 
   const experience = [
@@ -149,10 +169,17 @@ export default function Portfolio() {
     },
     {
       title: "Freelance Growth Hacker",
-      company: "ISHARASHEHAN CONSULTANCY (PVT) LTD.",
+      company: "ISHARASHEHAN CONSULTANCY (PVT) LTD",
       period: "2024 - Present",
       location: "Remote",
       description:"As a Freelance Growth Hacker at Ishara Shehan Consultancy (Pvt) Ltd, I conducted in-depth SEO audits, implemented on-page and technical SEO strategies, and improved website structure and crawlability. I enhanced user experience and search visibility by optimizing loading speed, mobile usability, and Core Web Vitals. Using tools like Google Analytics, Search Console, and third-party SEO platforms, I tracked performance and refined strategies. I also conducted keyword research, competitor analysis, and built internal linking and targeted backlink campaigns to improve organic rankings and align content with industry trends"
+    },
+    {
+      title: "Web Developer and SEO Specialist",
+      company: "Ravanas Group Pvt Ltd, Campbellfield Victoria 3061, Australia.",
+      period: "2024 - Present",
+      location: "Remote",
+      description: "Developed and managed a WordPress-based website for Ravans Group Pvt Ltd in Australia, hosted on AWS using EC2 for web hosting, RDS for database management, and other AWS services to ensure security, reliability, and high performance.",
     },
     {
       title: "Temporary IT Demonstrator",
