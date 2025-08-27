@@ -409,7 +409,7 @@ export default function Portfolio() {
                 <div className="text-center">
                   <Code className="h-8 w-8 mx-auto mb-2 text-blue-400" />
                   <h4 className="font-semibold">Frontend</h4>
-                  <p className="text-sm text-gray-400">React, Angular, Laravel</p>
+                  <p className="text-sm text-gray-400">React, Angular, NextJs</p>
                 </div>
                 <div className="text-center">
                   <Database className="h-8 w-8 mx-auto mb-2 text-green-400" />
