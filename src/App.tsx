@@ -161,9 +161,16 @@ export default function Portfolio() {
 
   const experience = [
     {
+      title: "Software Engineer",
+      company: "Urban Development Authority Of Sri Lanka.",
+      period: "2025 Sep - Present",
+      location: "Battaramulla",
+      description: "As a Software Engineer at the Urban Development Authority, I led the enhancement of core financial and project portpolio modules—including projects management, set up payment gateway , customer mangement, and grading—within the UDA's Finacial Management Information System (FMIS). I gathered functional requirements from UDA internal staff and customers, designed scalable system architectures, and implemented secure sanctum based authentication with role-based access control.I also introduced a MVC architecture to improve system modularity and maintainability, while optimizing relational database schemas for performance and accuracy. Throughout the development cycle, I conducted rigorous testing, debugging, and performance tuning to ensure reliable and responsive user experiences.\n"
+    },
+    {
       title: "System Analyst",
       company: "Faculty of Graduate Studies, University of Ruhuna.",
-      period: "2025 - Present",
+      period: "2025 Jan - 2025 Sep",
       location: "Matara",
       description: "As a System Analyst at the University of Ruhuna, I led the enhancement of core academic modules—including student enrollment, attendance tracking, and grading—within the university's Management Information System (MIS). I gathered functional requirements from academic staff, designed scalable system architectures, and implemented secure JWT-based authentication with role-based access control.I also introduced a microservices architecture to improve system modularity and maintainability, while optimizing relational database schemas for performance and accuracy. Throughout the development cycle, I conducted rigorous testing, debugging, and performance tuning to ensure reliable and responsive user experiences.\n"
     },
@@ -288,11 +295,11 @@ export default function Portfolio() {
             </div>
             <h1 className="text-5xl md:text-5xl font-bold mb-6">
               <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-               FULL-STACK DEVELOPER | SYSTEM ANALYST | FREELANCE GROWTH HACKER
+               SOFTWARE ENGINEER | SYSTEM ANALYST | FREELANCE GROWTH HACKER
               </span>
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Experienced Full Stack Developer, System Analyst, and SEO Specialist with a proven track record in building
+              Experienced Software Engineer, System Analyst, and SEO Specialist with a proven track record in building
               web-based academic and business systems.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
@@ -332,7 +339,7 @@ export default function Portfolio() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4">About Me</h2>
             <p className="text-gray-300 max-w-2xl mx-auto">
-              I am a software developer passionate about creating modern, efficient solutions using a wide range of frameworks and up‑to‑date technologies.
+              I am a software engineer passionate about creating modern, efficient solutions using a wide range of frameworks and up‑to‑date technologies.
             </p>
           </div>
 
@@ -340,7 +347,7 @@ export default function Portfolio() {
             <div className="mt-2">
               <h3 className="text-2xl font-semibold mb-6">My Journey</h3>
               <p className="text-gray-300 mb-6">
-                With 3 years of experience as a Full-Stack Developer, System Analyst, and SEO Specialist, I’ve delivered academic and business systems using Laravel, Angular, React, and Node.js.
+                With 3 years of experience as a Software Engineer, System Analyst, and SEO Specialist, I’ve delivered academic and business systems using Laravel, Angular, React, and Node.js.
                 My expertise includes designing scalable cloud architectures, optimizing performance, and building modern user interfaces with Tailwind CSS and shadcn/ui.
               </p>
               <p className="text-gray-300 mb-6">
@@ -409,7 +416,7 @@ export default function Portfolio() {
                 <div className="text-center">
                   <Code className="h-8 w-8 mx-auto mb-2 text-blue-400" />
                   <h4 className="font-semibold">Frontend</h4>
-                  <p className="text-sm text-gray-400">React, Angular, NextJs</p>
+                  <p className="text-sm text-gray-400">ReactJS, AngularJS, NextJs</p>
                 </div>
                 <div className="text-center">
                   <Database className="h-8 w-8 mx-auto mb-2 text-green-400" />
